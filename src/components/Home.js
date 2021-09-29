@@ -1,4 +1,6 @@
 import bg from '../assets/images/bg.jpg';
+import { FaGithubSquare, FaLinkedin, FaFacebookSquare } from 'react-icons/fa';
+
 function Home() {
   return (
     <div className="relative">
@@ -18,6 +20,11 @@ function Home() {
             continually learn and improve my skills in creating high-quality web
             applications and writing clean code.
           </p>
+          <div>
+            <FaGithubSquare />
+            <FaLinkedin />
+            <FaFacebookSquare />
+          </div>
         </div>
       </div>
     </div>
