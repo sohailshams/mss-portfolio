@@ -9,7 +9,7 @@ function Home() {
         src={bg}
         alt="Background"
       />
-      <div className="absolute top-1/4 w-full text-center bg-">
+      <div className="absolute top-1/4 w-full text-center">
         <div className="mx-auto border-2 w-9/12 md:w-6/12 bg-black opacity-70 text-white">
           <h1 className="font-bold md:font-semibold text-lg md:text-3xl lg:text-5xl px-4 pt-4">
             Muhammad Sohail Shams
@@ -26,21 +26,21 @@ function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithubSquare className="text-3xl" />
+              <FaGithubSquare className="text-3xl hover:text-gray-400 hover:scale-105 transition transform duration-800 ease-in" />
             </a>
             <a
               href="https://www.linkedin.com/in/muhammad-sohail-shams-56995126/"
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedin className="text-3xl" />
+              <FaLinkedin className="text-3xl hover:text-gray-400 hover:scale-105 transition transform duration-800 ease-in" />
             </a>
             <a
               href="https://www.facebook.com/sohail.252/"
               target="_blank"
               rel="noreferrer"
             >
-              <FaFacebookSquare className="text-3xl" />
+              <FaFacebookSquare className="text-3xl hover:text-gray-400 hover:scale-105 transition transform duration-800 ease-in" />
             </a>
           </div>
         </div>
