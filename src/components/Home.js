@@ -20,10 +20,28 @@ function Home() {
             continually learn and improve my skills in creating high-quality web
             applications and writing clean code.
           </p>
-          <div>
-            <FaGithubSquare />
-            <FaLinkedin />
-            <FaFacebookSquare />
+          <div className="flex items-center justify-center space-x-8 pb-6">
+            <a
+              href="https://github.com/sohailshams"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithubSquare className="text-3xl" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/muhammad-sohail-shams-56995126/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin className="text-3xl" />
+            </a>
+            <a
+              href="https://www.facebook.com/sohail.252/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebookSquare className="text-3xl" />
+            </a>
           </div>
         </div>
       </div>
