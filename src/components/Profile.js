@@ -33,12 +33,14 @@ function Profile() {
                     </a>
                   </div>
                 </div>
-                <div className="border-1 shadow-xl md:ml-4 xl:ml-0 mt-6 md:mt-0">
-                  <img
-                    className="object-cover h-full w-full"
-                    src={projectImage.default}
-                    alt={title}
-                  />
+                <div className="border-1 shadow-xl md:ml-4 xl:ml-0 mt-6 md:mt-0 transition duration-700 ease-in-out transform hover:scale-105">
+                  <a href={url} target="_blank" rel="noreferrer">
+                    <img
+                      className="object-cover h-full w-full"
+                      src={projectImage.default}
+                      alt={title}
+                    />
+                  </a>
                 </div>
                 <div className="my-4"></div>
               </div>
