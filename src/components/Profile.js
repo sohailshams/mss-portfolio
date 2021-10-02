@@ -21,15 +21,20 @@ function Profile() {
                   <p>{description}</p>
                   <div className="space-x-4 pt-4">
                     <a
-                      className="border-2 p-2 shadow bg-black text-white"
+                      className="border-2 p-2 shadow bg-black text-white hover:bg-gray-800 transition duration-500"
                       href={githubUrl}
                       target="_blank"
                       rel="noreferrer"
                     >
                       Source Code
                     </a>{' '}
-                    <a href={url} target="_blank" rel="noreferrer">
-                      Live
+                    <a
+                      className="border-2 p-2 shadow bg-black text-white hover:bg-gray-800 transition duration-500"
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Live Site
                     </a>
                   </div>
                 </div>
