@@ -16,56 +16,64 @@
             "description": "Technologies used in this project are HTML5, CSS3,  Glassmorphism, Github Pages and React & React Hooks.",
             "category": "",
             "image": "book-list.png",
-            "url": "https://sohailshams.github.io/book-list/"
+            "url": "https://sohailshams.github.io/book-list/",
+            "githubUrl": "https://github.com/sohailshams/book-list"
           },
           {
             "title": "Netflix Clone",
             "description": "Technologies used in this project are HTML5, CSS3, React, Redux, Stripe, Google Authentication, Ract Router Dom, Axios & React Hooks.",
             "category": "",
             "image": "netflix-clone.png",
-            "url": "https://netflix-clone-app-93fe9.web.app/"
+            "url": "https://netflix-clone-app-93fe9.web.app/",
+            "githubUrl": "https://github.com/sohailshams/netflix-clone-app"
           },
         {
             "title": "Explore Copenhagen",
             "description": "Technologies used in this project are HTML5, CSS3, JavaScript/JQuery, JSON, Googlemap API, Bootstrap, Googlefonts, FontAwesome and Hover.css.",
             "category": "",
             "image": "explore-copenhagen.png",
-            "url": "https://sohailshams.github.io/explore-copenhagen/"
+            "url": "https://sohailshams.github.io/explore-copenhagen/",
+            "githubUrl": "https://github.com/sohailshams/explore-copenhagen"
           },
           {
             "title": "Rock-Paper-Scissor",
             "description": "Technologies used in this project are HTML5, CSS3, JavaScript, Font Awesome, Particlesjs and BrandCrowd.",
             "category": "",
             "image": "rock-paper-scissor.png",
-            "url": "https://sohailshams.github.io/explore-copenhagen/"
+            "url": "https://sohailshams.github.io/explore-copenhagen/",
+            "githubUrl": "https://github.com/sohailshams/rock-paper-scissor"
           },
           {
             "title": "Expense Tracker",
             "description": "Technologies used in this project are HTML5, CSS3, React and Materialize.",
             "category": "",
             "image": "expense-tracker.png",
-            "url": "https://sohailshams.github.io/expense-tracker/"
+            "url": "https://sohailshams.github.io/expense-tracker/",
+            "githubUrl": "https://github.com/sohailshams/expense-tracker"
           },
           {
-            "title": "Covid-19 Tracker (React JS Material UI)",
+            "title": "Covid-19 Tracker",
             "description": "Technologies used in this project are HTML5, CSS3, React React Hooks, Material UI, Ract Chartjs, Numeraljs and uuid",
             "category": "",
             "image": "covid-tracker.png",
-            "url": "https://covid-19-tracker-78734.web.app/"
+            "url": "https://covid-19-tracker-78734.web.app/",
+            "githubUrl": "https://github.com/sohailshams/covid-19-tracker"
           }, 
           {
             "title": "Slack Clone",
             "description": "Technologies used in this project are HTML5, CSS3, React, Redux, Styled Components, React Firebase Hooks, React Hooks, Google Authentication and Material UI ",
             "category": "",
             "image": "slack-clone.png",
-            "url": "https://slack-clone-7a183.web.app/"
+            "url": "https://slack-clone-7a183.web.app/",
+            "githubUrl": "https://github.com/sohailshams/slack-clone"
           }, 
           {
             "title": "Snapchat Clone",
             "description": "Technologies used in this project are HTML5, CSS3, React, React, Redux, React Hooks, BEM, Google Authentication, React Webcam, Material UI, Ract Router Dom, Ract Timeago andRact Countdown Circle Timer",
             "category": "",
             "image": "snapchat-clone.png",
-            "url": "https://snapchat-clone-853d8.web.app/"
+            "url": "https://snapchat-clone-853d8.web.app/",
+            "githubUrl": "https://github.com/sohailshams/snapchat-clone"
           }
       ]
     }
