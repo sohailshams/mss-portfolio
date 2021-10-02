@@ -9,41 +9,41 @@ function Profile() {
       <div className="w-10/12 mx-auto">
         <h2 className="text-center my-4 text-4xl font-semibold">IT Skills</h2>
         <div className="space-x-4 text-center text-xs grid grid-cols-2 sm:grid-cols-4">
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 ml-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 ml-4 cursor-not-allowed">
             HTML5/CSS3
           </button>
 
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             TailwindCSS
           </button>
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             Bootstrap
           </button>
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             Materialize
           </button>
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             JavaScript
           </button>
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             JQuery
           </button>
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             React
           </button>
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             Python
           </button>
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             Flask/Django
           </button>
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             SQLite3/Firebase
           </button>
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             Git
           </button>
-          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             Github
           </button>
         </div>
@@ -94,6 +94,39 @@ function Profile() {
             );
           }
         )}
+      </div>
+      <div>
+        <h2 className="text-center my-4 text-4xl font-semibold">Soft Skills</h2>
+        <div className="w-10/12 mx-auto my-4 grid grid-cols-2 sm:grid-cols-4">
+          <span className="border-2 text-center shadow-lg p-1">Creative</span>
+          <span className="border-2 text-center shadow-lg p-1">Proactive</span>
+          <span className="border-2 text-center shadow-lg p-1">
+            Team Player
+          </span>
+          <span className="border-2 text-center shadow-lg p-1">
+            Fast learner
+          </span>
+          <span className="border-2 text-center shadow-lg p-1">
+            Result Oriented
+          </span>
+          <span className="border-2 text-center shadow-lg p-1">
+            Communication
+          </span>
+          <span className="border-2 text-center shadow-lg p-1">
+            Analytic Thinker
+          </span>
+          <span className="border-2 text-center shadow-lg p-1">
+            Problem Solver
+          </span>
+          <span className="border-2 text-center shadow-lg p-1">
+            Service Minded
+          </span>
+          <span className="border-2 text-center shadow-lg p-1">
+            Well Structured
+          </span>
+          <span className="border-2 text-center shadow-lg p-1">Planner</span>
+          <span className="border-2 text-center shadow-lg p-1">Flexible</span>
+        </div>
       </div>
     </div>
   );
