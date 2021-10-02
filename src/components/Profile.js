@@ -95,38 +95,46 @@ function Profile() {
           }
         )}
       </div>
-      <div>
-        <h2 className="text-center my-4 text-4xl font-semibold">Soft Skills</h2>
-        <div className="w-10/12 mx-auto my-4 grid grid-cols-2 sm:grid-cols-4">
-          <span className="border-2 text-center shadow-lg p-1">Creative</span>
-          <span className="border-2 text-center shadow-lg p-1">Proactive</span>
-          <span className="border-2 text-center shadow-lg p-1">
-            Team Player
-          </span>
-          <span className="border-2 text-center shadow-lg p-1">
-            Fast learner
-          </span>
-          <span className="border-2 text-center shadow-lg p-1">
-            Result Oriented
-          </span>
-          <span className="border-2 text-center shadow-lg p-1">
-            Communication
-          </span>
-          <span className="border-2 text-center shadow-lg p-1">
-            Analytic Thinker
-          </span>
-          <span className="border-2 text-center shadow-lg p-1">
-            Problem Solver
-          </span>
-          <span className="border-2 text-center shadow-lg p-1">
-            Service Minded
-          </span>
-          <span className="border-2 text-center shadow-lg p-1">
-            Well Structured
-          </span>
-          <span className="border-2 text-center shadow-lg p-1">Planner</span>
-          <span className="border-2 text-center shadow-lg p-1">Flexible</span>
-        </div>
+
+      <h2 className="text-center my-4 text-4xl font-semibold">Soft Skills</h2>
+      <div className="w-10/12 mx-auto my-4 grid grid-cols-2 sm:grid-cols-4">
+        <span className="border-2 text-center shadow-lg p-1">Creative</span>
+        <span className="border-2 text-center shadow-lg p-1">Proactive</span>
+        <span className="border-2 text-center shadow-lg p-1">Team Player</span>
+        <span className="border-2 text-center shadow-lg p-1">Fast learner</span>
+        <span className="border-2 text-center shadow-lg p-1">
+          Result Oriented
+        </span>
+        <span className="border-2 text-center shadow-lg p-1">
+          Communication
+        </span>
+        <span className="border-2 text-center shadow-lg p-1">
+          Analytic Thinker
+        </span>
+        <span className="border-2 text-center shadow-lg p-1">
+          Problem Solver
+        </span>
+        <span className="border-2 text-center shadow-lg p-1">
+          Service Minded
+        </span>
+        <span className="border-2 text-center shadow-lg p-1">
+          Well Structured
+        </span>
+        <span className="border-2 text-center shadow-lg p-1">Planner</span>
+        <span className="border-2 text-center shadow-lg p-1">Flexible</span>
+      </div>
+      <h2 className="text-center my-4 text-4xl font-semibold">Education</h2>
+      <div className="my-4 text-center">
+        <h3 className="text-lg font-extrabold">
+          Code Institute, Dublin - Ireland
+        </h3>
+        <p className="font-semibold">
+          Diploma in Software Development •December 2020
+        </p>
+        <h3 className="text-lg font-extrabold">
+          Linnæus University, Kalmar - Sweden
+        </h3>
+        <p className="font-semibold">Master in Marketing •December 2010</p>
       </div>
     </div>
   );
