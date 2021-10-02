@@ -20,10 +20,10 @@ function Profile() {
                   <h2 className="text-lg font-extrabold py-2 xl:py-5">
                     {title}
                   </h2>
-                  <p>{description}</p>
+                  <p className="text-sm md:text-base">{description}</p>
                   <div className="space-x-4 py-6 xl:pt-8">
                     <a
-                      className="border-2 p-2 shadow bg-black text-white hover:bg-gray-800 transition duration-500"
+                      className="border-2 p-2 shadow bg-black text-white hover:bg-gray-800 transition duration-500 text-sm md:text-base font-semibold"
                       href={githubUrl}
                       target="_blank"
                       rel="noreferrer"
@@ -31,7 +31,7 @@ function Profile() {
                       Source Code
                     </a>{' '}
                     <a
-                      className="border-2 p-2 shadow bg-black text-white hover:bg-gray-800 transition duration-500"
+                      className="border-2 p-2 shadow bg-black text-white hover:bg-gray-800 transition duration-500 text-sm md:text-base font-semibold"
                       href={url}
                       target="_blank"
                       rel="noreferrer"
