@@ -17,9 +17,11 @@ function Profile() {
                 key={uuid()}
               >
                 <div className="max-w-sm border-1 shadow-xl px-5">
-                  <h2>{title}</h2>
+                  <h2 className="text-lg font-extrabold py-2 xl:py-5">
+                    {title}
+                  </h2>
                   <p>{description}</p>
-                  <div className="space-x-4 pt-4">
+                  <div className="space-x-4 py-6 xl:pt-8">
                     <a
                       className="border-2 p-2 shadow bg-black text-white hover:bg-gray-800 transition duration-500"
                       href={githubUrl}
