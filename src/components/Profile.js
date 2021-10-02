@@ -33,7 +33,7 @@ function Profile() {
                     </a>
                   </div>
                 </div>
-                <div className="border-1 shadow-xl">
+                <div className="border-1 shadow-xl md:ml-4 xl:ml-0 mt-6 md:mt-0">
                   <img
                     className="object-cover h-full w-full"
                     src={projectImage.default}
