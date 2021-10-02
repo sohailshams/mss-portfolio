@@ -7,6 +7,46 @@ function Profile() {
       <Nav />
 
       <div className="w-10/12 mx-auto">
+        <h2 className="text-center my-4 text-4xl font-semibold">IT Skills</h2>
+        <div className="space-x-4 text-center text-xs grid grid-cols-2 sm:grid-cols-4">
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 ml-4">
+            HTML5/CSS3
+          </button>
+
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+            TailwindCSS
+          </button>
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+            Bootstrap
+          </button>
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+            Materialize
+          </button>
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+            JavaScript
+          </button>
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+            JQuery
+          </button>
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+            React
+          </button>
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+            Python
+          </button>
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+            Flask/Django
+          </button>
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+            SQLite3/Firebase
+          </button>
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+            Git
+          </button>
+          <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4">
+            Github
+          </button>
+        </div>
         <h2 className="text-center my-4 text-4xl font-semibold">Projects</h2>
         {portfolio.projects.map(
           ({ title, image, url, description, githubUrl }) => {
