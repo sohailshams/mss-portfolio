@@ -1,5 +1,6 @@
 import { portfolio } from '../assets/data/resumeData.json';
 import Nav from './Nav';
+import { v1 as uuid } from 'uuid';
 function Profile() {
   return (
     <div>
@@ -11,8 +12,11 @@ function Profile() {
           ({ title, image, url, description, githubUrl }) => {
             let projectImage = require('../assets/images/projects/' + image);
             return (
-              <div className="flex pt-4" key={title}>
-                <div className="max-w-sm">
+              <div
+                className="pt-4 grid sm:grid-cols-2 justify-items-center"
+                key={uuid()}
+              >
+                <div className="max-w-sm border-1 shadow-xl px-5">
                   <h2>{title}</h2>
                   <p>{description}</p>
                   <div className="space-x-4 pt-4">
@@ -29,9 +33,14 @@ function Profile() {
                     </a>
                   </div>
                 </div>
-                <div className="flex-grow">
-                  <img src={projectImage.default} alt={title} />
+                <div className="border-1 shadow-xl">
+                  <img
+                    className="object-cover h-full w-full"
+                    src={projectImage.default}
+                    alt={title}
+                  />
                 </div>
+                <div className="my-4"></div>
               </div>
             );
           }
