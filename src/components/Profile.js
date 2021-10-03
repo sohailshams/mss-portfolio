@@ -1,6 +1,7 @@
 import { portfolio } from '../assets/data/resumeData.json';
 import Nav from './Nav';
 import { v1 as uuid } from 'uuid';
+import Footer from './Footer';
 function Profile() {
   return (
     <div>
@@ -136,6 +137,7 @@ function Profile() {
         </h3>
         <p className="font-semibold">Master in Marketing •December 2010</p>
       </div>
+      <Footer />
     </div>
   );
 }
