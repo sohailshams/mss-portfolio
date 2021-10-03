@@ -124,18 +124,22 @@ function Profile() {
         <span className="border-2 text-center shadow-lg p-1">Planner</span>
         <span className="border-2 text-center shadow-lg p-1">Flexible</span>
       </div>
-      <h2 className="text-center my-4 text-4xl font-semibold">Education</h2>
+      <h2 className="text-center my-4 text-4xl font-semibold pt-2">
+        Education
+      </h2>
       <div className="my-4 text-center">
-        <h3 className="text-lg font-extrabold">
+        <h3 className="text-lg font-semibold sm:font-extrabold shadow-lg w-10/12 md:w-6/12 mx-auto">
           Code Institute, Dublin - Ireland
         </h3>
-        <p className="font-semibold">
-          Diploma in Software Development •December 2020
+        <p className="font-base sm:font-semibold py-2">
+          Diploma in Software Development • December 2020
         </p>
-        <h3 className="text-lg font-extrabold">
+        <h3 className="text-lg font-semibold sm:font-extrabold shadow-lg w-10/12 md:w-6/12 mx-auto">
           Linnæus University, Kalmar - Sweden
         </h3>
-        <p className="font-semibold">Master in Marketing •December 2010</p>
+        <p className="font-base sm:font-semibold py-2">
+          Master in Marketing • December 2010
+        </p>
       </div>
       <Footer />
     </div>
