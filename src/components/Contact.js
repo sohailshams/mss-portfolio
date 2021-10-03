@@ -1,7 +1,37 @@
 import Footer from './Footer';
 import Nav from './Nav';
+import { useState } from 'react';
+import { send } from 'emailjs-com';
 
 function Contact() {
+  const [toSend, setToSend] = useState({
+    full_name: '',
+    email: '',
+    message: '',
+  });
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    send(
+      'service_quv2dpp',
+      'template_ku7hloo',
+      toSend,
+      'user_szOhPSLxA2EXG4yhRHbbV'
+    )
+      .then((response) => {
+        if (response.status === 200) {
+          setToSend({ full_name: '', email: '', message: '' });
+        } else alert('Please try again later');
+      })
+      .catch((err) => {
+        console.log('FAILED...', err);
+      });
+  };
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
+
   return (
     <div>
       <Nav />
@@ -10,7 +40,7 @@ function Contact() {
         <h3 className="text-center font-semibold mb-2">
           Let's bring ideas into reality
         </h3>
-        <form action="" className="shadow-2xl mb-6">
+        <form onSubmit={onSubmit} className="shadow-2xl mb-6">
           <div className="mt-8 max-w-md mx-auto px-4">
             <div className="grid grid-cols-1 gap-6">
               <label className="block">
@@ -20,6 +50,9 @@ function Contact() {
                   className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
                   placeholder="Full name"
                   required
+                  name="full_name"
+                  value={toSend.full_name}
+                  onChange={handleChange}
                 />
               </label>
               <label className="block">
@@ -29,6 +62,9 @@ function Contact() {
                   className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
                   placeholder="email@example.com"
                   required
+                  name="email"
+                  value={toSend.email}
+                  onChange={handleChange}
                 />
               </label>
 
@@ -38,10 +74,16 @@ function Contact() {
                   className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
                   rows="3"
                   required
+                  name="message"
+                  value={toSend.message}
+                  onChange={handleChange}
                 ></textarea>
               </label>
               <div className="block">
-                <button className="bg-black text-white hover:bg-gray-800 px-10 py-2 shadow-md mb-6 font-bold hover:shadow-2xl active:scale-90 transition duration-500">
+                <button
+                  type="submit"
+                  className="bg-black text-white hover:bg-gray-800 px-10 py-2 shadow-md mb-6 font-bold hover:shadow-2xl active:scale-90 transition duration-500"
+                >
                   Send
                 </button>
               </div>
