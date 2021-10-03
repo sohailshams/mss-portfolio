@@ -11,34 +11,36 @@ function Contact() {
           Let's bring ideas into reality
         </h3>
         <form action="" className="shadow-2xl mb-6">
-          <div class="mt-8 max-w-md mx-auto px-4">
-            <div class="grid grid-cols-1 gap-6">
-              <label class="block">
-                <span class="text-gray-700">Full name</span>
+          <div className="mt-8 max-w-md mx-auto px-4">
+            <div className="grid grid-cols-1 gap-6">
+              <label className="block">
+                <span className="text-gray-700">Full name</span>
                 <input
                   type="text"
-                  class="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+                  className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
                   placeholder="Full name"
                 />
               </label>
-              <label class="block">
-                <span class="text-gray-700">Email address</span>
+              <label className="block">
+                <span className="text-gray-700">Email address</span>
                 <input
                   type="email"
-                  class="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+                  className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
                   placeholder="email@example.com"
                 />
               </label>
 
-              <label class="block">
-                <span class="text-gray-700">Message</span>
+              <label className="block">
+                <span className="text-gray-700">Message</span>
                 <textarea
-                  class="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+                  className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
                   rows="3"
                 ></textarea>
               </label>
-              <div class="block">
-                <button>Send</button>
+              <div className="block">
+                <button className="bg-black text-white hover:bg-gray-800 px-10 py-2 shadow-md mb-6 font-bold hover:shadow-2xl active:scale-90 transition duration-500">
+                  Send
+                </button>
               </div>
             </div>
           </div>
