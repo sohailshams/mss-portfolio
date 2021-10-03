@@ -17,7 +17,10 @@ function Nav() {
         Profile
       </h4>
 
-      <h4 className="hover:text-gray-400 hover:scale-105 transition transform duration-800 ease-in cursor-pointer">
+      <h4
+        className="hover:text-gray-400 hover:scale-105 transition transform duration-800 ease-in cursor-pointer"
+        onClick={() => history.push('/contact')}
+      >
         Contact
       </h4>
 
