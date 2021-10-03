@@ -32,6 +32,10 @@ function Contact() {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
+  const setClear = () => {
+    setToSend({ full_name: '', email: '', message: '' });
+  };
+
   return (
     <div>
       <Nav />
@@ -79,12 +83,18 @@ function Contact() {
                   onChange={handleChange}
                 ></textarea>
               </label>
-              <div className="block">
+              <div className="block space-x-2">
                 <button
                   type="submit"
-                  className="bg-black text-white hover:bg-gray-800 px-10 py-2 shadow-md mb-6 font-bold hover:shadow-2xl active:scale-90 transition duration-500"
+                  className="bg-black text-white hover:bg-gray-800 px-6 py-2 shadow-md mb-6 font-semibold hover:shadow-2xl active:scale-90 transition duration-500"
                 >
                   Send
+                </button>
+                <button
+                  className="bg-black text-white hover:bg-gray-800 px-6 py-2 shadow-md mb-6 font-semibold hover:shadow-2xl active:scale-90 transition duration-500"
+                  onClick={setClear}
+                >
+                  Clear
                 </button>
               </div>
             </div>
