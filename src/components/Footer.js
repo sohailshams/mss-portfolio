@@ -38,27 +38,6 @@ function Footer() {
           <FaFacebookSquare className="text-3xl hover:text-gray-400 hover:scale-105 transition transform duration-800 ease-in" />
         </a>
       </div>
-      {/* <a
-        className="font-bold text-red-400"
-        target="_blank"
-        href="https://www.facebook.com/sohail.252/"
-      >
-        Facebook
-      </a>
-      <a
-        className="font-bold text-red-400"
-        target="_blank"
-        href="https://www.linkedin.com/in/muhammad-sohail-shams-56995126/"
-      >
-        Linkedin
-      </a>
-      <a
-        className="font-bold text-red-400"
-        target="_blank"
-        href="https://github.com/sohailshams"
-      >
-        Github
-      </a> */}
     </div>
   );
 }
