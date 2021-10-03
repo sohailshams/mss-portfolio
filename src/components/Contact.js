@@ -19,6 +19,7 @@ function Contact() {
                   type="text"
                   className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
                   placeholder="Full name"
+                  required
                 />
               </label>
               <label className="block">
@@ -27,6 +28,7 @@ function Contact() {
                   type="email"
                   className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
                   placeholder="email@example.com"
+                  required
                 />
               </label>
 
@@ -35,6 +37,7 @@ function Contact() {
                 <textarea
                   className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
                   rows="3"
+                  required
                 ></textarea>
               </label>
               <div className="block">
