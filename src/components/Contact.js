@@ -2,8 +2,10 @@ import Footer from './Footer';
 import Nav from './Nav';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
+import { useHistory } from 'react-router-dom';
 
 function Contact() {
+  const history = useHistory();
   const [toSend, setToSend] = useState({
     full_name: '',
     email: '',
@@ -21,6 +23,7 @@ function Contact() {
       .then((response) => {
         if (response.status === 200) {
           setToSend({ full_name: '', email: '', message: '' });
+          history.push('/');
         } else alert('Please try again later');
       })
       .catch((err) => {
