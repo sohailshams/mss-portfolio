@@ -1,3 +1,4 @@
+import Footer from './Footer';
 import Nav from './Nav';
 
 function Contact() {
@@ -9,7 +10,7 @@ function Contact() {
         <h3 className="text-center font-semibold mb-2">
           Let's bring ideas into reality
         </h3>
-        <form action="" className="shadow-2xl">
+        <form action="" className="shadow-2xl mb-6">
           <div class="mt-8 max-w-md mx-auto px-4">
             <div class="grid grid-cols-1 gap-6">
               <label class="block">
@@ -43,6 +44,7 @@ function Contact() {
           </div>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }
