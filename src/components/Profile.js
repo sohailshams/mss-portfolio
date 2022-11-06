@@ -6,8 +6,55 @@ function Profile() {
   return (
     <div>
       <Nav />
-
+      
       <div className="w-10/12 mx-auto">
+      <h2 className="text-center my-4 text-3xl font-bold sm:font-semibold pt-2 sm:text-4xl">
+        Work Experience
+      </h2>
+      <div className="pt-4 grid sm:grid-cols-2 place-content-around">
+        <div className="border-1 shadow-xl px-5">
+          <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5">
+            JB Cole, Manchester, UK
+            </h2>
+            <p className='font-medium '>Junior Python Developer April 2022 till Present</p>
+          <ul className='text-left ml-4 pl-6 list-disc'>
+            <li className="font-base sm:font-semibold py-2">
+              Writing clean code of Python and Django for custom web applications.
+            </li>
+            <li className="font-base sm:font-semibold py-2">
+              Writing unit tests and debug code.
+            </li>
+            <li className="font-base sm:font-semibold py-2">
+              Collaborate with developers to build mobile-responsive software.
+            </li>
+          </ul>   
+        </div>
+        <div className="border-1 shadow-xl md:ml-4 xl:ml-0 mt-6 sm:mt-0">
+          <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5 pl-5">
+            Q4 Inc. Toronto, Canada
+          </h2>
+          <p className='font-medium pl-5'>Client Support Analyst April 2021 till March 2022 </p>
+          <ul className='text-left ml-4 pl-6 list-disc'>
+            <li className="font-base sm:font-semibold py-2">
+              Provide web support to the clients in a timely manner using Salesforce Service Cloud.
+            </li>
+            <li className="font-base sm:font-semibold py-2">
+              Help clients with fixes and content updates to keep their websites up to date.
+            </li>
+            <li className="font-base sm:font-semibold py-2">
+              Understanding & solving bugs/limitations via HTML, CSS & JavaScript/JQuery.
+            </li>
+            <li className="font-base sm:font-semibold py-2">
+              Respond efficiently to the clients and provide them excellent customer service.
+            </li>
+            <li className="font-base sm:font-semibold py-2">
+              Quality Assurance (QA) - Testing of client’s updates.
+            </li>
+          </ul>
+        </div>
+        <div className="my-4"></div>
+      </div>
+
         <h2 className="text-center my-4 text-4xl font-semibold">IT Skills</h2>
         <div className="space-x-4 text-center text-xs grid grid-cols-2 sm:grid-cols-4">
           <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 ml-4 cursor-not-allowed">
@@ -33,10 +80,10 @@ function Profile() {
             React
           </button>
           <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
-            Python
+            Python/Django
           </button>
           <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
-            Flask/Django
+            Django REST Framework
           </button>
           <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             SQLite3/Firebase

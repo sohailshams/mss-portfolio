@@ -12,6 +12,14 @@
           "githubUrl": "https://github.com/sohailshams/fitness-home"
         },
         {
+          "title": "Blog Post",
+          "description": "Technologies used in this prject are HTML5, CSS3, JavaScript/JQuery, Tailwind CSS, AWS-S3, SQLite3, Postgre and Python/Django.",
+          "category": "",
+          "image": "blog-post.png",
+          "url": "https://powerful-care-production.up.railway.app/",
+          "githubUrl": "https://github.com/sohailshams/blog"
+        },
+        {
             "title": "Book List",
             "description": "Technologies used in this project are HTML5, CSS3,  Glassmorphism, Github Pages and React & React Hooks.",
             "category": "",
@@ -24,16 +32,8 @@
             "description": "Technologies used in this project are HTML5, CSS3, React, Redux, Stripe, Google Authentication, Ract Router Dom, Axios & React Hooks.",
             "category": "",
             "image": "netflix-clone.png",
-            "url": "https://netflix-clone-app-93fe9.web.app/",
-            "githubUrl": "https://github.com/sohailshams/netflix-clone-app"
-          },
-        {
-            "title": "Explore Copenhagen",
-            "description": "Technologies used in this project are HTML5, CSS3, JavaScript/JQuery, JSON, Googlemap API, Bootstrap, Googlefonts, FontAwesome and Hover.css.",
-            "category": "",
-            "image": "explore-copenhagen.png",
-            "url": "https://sohailshams.github.io/explore-copenhagen/",
-            "githubUrl": "https://github.com/sohailshams/explore-copenhagen"
+            "url": "https://netflix-clone-ab4aa.web.app/",
+            "githubUrl": "https://github.com/sohailshams/netflix-clone"
           },
           {
             "title": "Rock-Paper-Scissor",
@@ -74,6 +74,14 @@
             "image": "snapchat-clone.png",
             "url": "https://snapchat-clone-853d8.web.app/",
             "githubUrl": "https://github.com/sohailshams/snapchat-clone"
+          },
+          {
+            "title": "Explore Copenhagen",
+            "description": "Technologies used in this project are HTML5, CSS3, JavaScript/JQuery, JSON, Googlemap API, Bootstrap, Googlefonts, FontAwesome and Hover.css.",
+            "category": "",
+            "image": "explore-copenhagen.png",
+            "url": "https://sohailshams.github.io/explore-copenhagen/",
+            "githubUrl": "https://github.com/sohailshams/explore-copenhagen"
           }
       ]
     }
