@@ -34,7 +34,7 @@ function Profile() {
             Q4 Inc. Toronto, Canada
           </h2>
           <p className='font-medium pl-5'>Client Support Analyst April 2021 till March 2022 </p>
-          <ul className='text-left ml-4 pl-6 list-disc'>
+          <ul className='text-left ml-4 pl-10 pr-2 list-disc'>
             <li className="font-base sm:font-semibold py-2">
               Provide web support to the clients in a timely manner using Salesforce Service Cloud.
             </li>
