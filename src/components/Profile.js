@@ -16,16 +16,16 @@ function Profile() {
           <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5">
             JB Cole, Manchester, UK
             </h2>
-            <p className='font-medium '>Junior Python Developer April 2022 till Present</p>
+            <p className='font-bold'>Junior Python Developer (Django) <br/> <span className='font-medium'>April 2022 till November 2022</span></p>
           <ul className='text-left ml-4 pl-6 list-disc'>
             <li className="font-base sm:font-semibold py-2">
-              Writing clean code of Python and Django for custom web applications.
+              Development of mobile responsive web applications with Django and Django REST framework. 
             </li>
             <li className="font-base sm:font-semibold py-2">
-              Writing unit tests and debug code.
+              Application stability supported by unit test creation and maintenance using Python standard library module: unittest. 
             </li>
             <li className="font-base sm:font-semibold py-2">
-              Collaborate with developers to build mobile-responsive software.
+            	Bug investigations enabled by application code debugging and collaboration with project manager.
             </li>
           </ul>   
         </div>
@@ -33,19 +33,22 @@ function Profile() {
           <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5 pl-5">
             Q4 Inc. Toronto, Canada
           </h2>
-          <p className='font-medium pl-5'>Client Support Analyst April 2021 till March 2022 </p>
+          <p className='font-bold pl-5'>Client Support Analyst <br/> <span className='font-medium'>April 2021 till March 2022</span></p>
           <ul className='text-left ml-4 pl-10 pr-2 list-disc'>
             <li className="font-base sm:font-semibold py-2">
-              Provide web support to the clients in a timely manner using Salesforce Service Cloud.
+            	Provision of web support to a range of clients using Salesforce Service Cloud. 
             </li>
             <li className="font-base sm:font-semibold py-2">
-              Help clients with fixes and content updates to keep their websites up to date.
+            	Enabling customer’s success with content updates/maintenance by assisting with fixes and content updates. 
             </li>
             <li className="font-base sm:font-semibold py-2">
               Understanding & solving bugs/limitations via HTML, CSS & JavaScript/JQuery.
             </li>
             <li className="font-base sm:font-semibold py-2">
-              Respond efficiently to the clients and provide them excellent customer service.
+            	Conducting investigation and resolution of bugs and identifying product opportunities with HTML, CSS & JavaScript/JQuery tech stack.
+            </li>
+            <li className="font-base sm:font-semibold py-2">
+            	Respond efficiently to the clients and provide them excellent customer service.
             </li>
             <li className="font-base sm:font-semibold py-2">
               Quality Assurance (QA) - Testing of client’s updates.

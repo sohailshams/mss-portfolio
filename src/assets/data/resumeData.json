@@ -8,7 +8,7 @@
           "description": "Technologies used in this prject are HTML5, CSS3, JavaScript/JQuery, Bootstrap, AWS, SQLite3, Postgre and Python/Django. Stripe is also integreated to enable payments.",
           "category": "",
           "image": "fitness-home.png",
-          "url": "http://mss-fitness-home.herokuapp.com/",
+          "url": "https://mss-fitness-home.onrender.com/",
           "githubUrl": "https://github.com/sohailshams/fitness-home"
         },
         {
@@ -20,8 +20,16 @@
           "githubUrl": "https://github.com/sohailshams/blog"
         },
         {
+          "title": "aisi",
+          "description": "Technologies used in this project are HTML5, Tailwind CSS, Google Sign In, Google Firebase, Github, Netlify, React, React Router Dom & React Hooks.",
+          "category": "",
+          "image": "aisi.png",
+          "url": "https://cerulean-flan-510874.netlify.app/",
+          "githubUrl": "https://github.com/sohailshams/aisi"
+        },
+        {
             "title": "Book List",
-            "description": "Technologies used in this project are HTML5, CSS3,  Glassmorphism, Github Pages and React & React Hooks.",
+            "description": "Technologies used in this project are HTML5, CSS3, Glassmorphism, Github Pages and React & React Hooks.",
             "category": "",
             "image": "book-list.png",
             "url": "https://sohailshams.github.io/book-list/",
