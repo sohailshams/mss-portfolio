@@ -5,7 +5,7 @@
         
         {
           "title": "Fitness Home",
-          "description": "Technologies used in this prject are HTML5, CSS3, JavaScript/JQuery, Bootstrap, AWS, SQLite3, Postgre and Python/Django. Stripe is also integreated to enable payments.",
+          "description": "Technologies used in this project are HTML5, CSS3, JavaScript/JQuery, Bootstrap, AWS, SQLite3, Postgre and Python/Django. Stripe is also integreated to enable payments.",
           "category": "",
           "image": "fitness-home.png",
           "url": "https://mss-fitness-home.onrender.com/",
@@ -13,7 +13,7 @@
         },
         {
           "title": "Blog Post",
-          "description": "Technologies used in this prject are HTML5, CSS3, JavaScript/JQuery, Tailwind CSS, AWS-S3, SQLite3, Postgre and Python/Django.",
+          "description": "Technologies used in this project are HTML5, CSS3, JavaScript/JQuery, Tailwind CSS, AWS-S3, SQLite3, Postgre and Python/Django.",
           "category": "",
           "image": "blog-post.png",
           "url": "https://powerful-care-production.up.railway.app/",
