@@ -40,7 +40,7 @@ function Contact() {
   };
 
   return (
-    <div>
+    <div className='flex flex-col justify-between h-screen'>
       <Nav />
       <div className="w-10/12 mx-auto">
         <h2 className="text-center my-4 text-4xl font-semibold">Contact</h2>

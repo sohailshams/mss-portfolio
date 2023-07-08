@@ -4,7 +4,7 @@ import Nav from './Nav';
 
 function Home() {
   return (
-    <div>
+    <>
       <Nav />
 
       <div className="relative">
@@ -50,7 +50,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

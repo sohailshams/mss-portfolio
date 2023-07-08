@@ -124,7 +124,7 @@ function Profile() {
                 className="pt-4 grid sm:grid-cols-2 justify-items-center"
                 key={uuid()}
               >
-                <div className="max-w-lg border-1 shadow-xl px-5 flex flex-col items-start justify-center h-full">
+                <div className="max-w-lg border-1 shadow-xl px-5 flex flex-col items-start justify-center">
                   <div>
                   <h2 className="text-lg font-extrabold py-2 xl:py-5">
                     {title}
