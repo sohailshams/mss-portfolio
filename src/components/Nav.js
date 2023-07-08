@@ -25,12 +25,6 @@ function Nav() {
       >
         Contact
       </h4>
-
-      <h4 className="hover:text-gray-400 hover:scale-105 transition transform duration-800 ease-in cursor-pointer">
-        <a href={cv} target="_blank" rel="noreferrer">
-          Resume
-        </a>
-      </h4>
     </div>
   );
 }

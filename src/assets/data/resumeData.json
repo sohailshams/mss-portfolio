@@ -4,8 +4,15 @@
       "projects": [
         
         {
+          "title": "The NC News.",
+          "description": "Technologies used in this prject are HTML5, Tailwind CSS, JavaScript/React, PostgreySQL  and Jest.",
+          "category": "",
+          "image": "nc-news.png",
+          "url": "https://sensational-tanuki-3d993b.netlify.app/",
+          "githubUrl": "https://github.com/sohailshams/nc-news"
+        },{
           "title": "Fitness Home",
-          "description": "Technologies used in this project are HTML5, CSS3, JavaScript/JQuery, Bootstrap, AWS, SQLite3, Postgre and Python/Django. Stripe is also integreated to enable payments.",
+          "description": "Technologies used in this project are HTML5, CSS3, JavaScript, Bootstrap, AWS, SQLite3, Postgre and Python/Django. Stripe is also integreated to enable payments.",
           "category": "",
           "image": "fitness-home.png",
           "url": "https://mss-fitness-home.onrender.com/",
@@ -13,7 +20,7 @@
         },
         {
           "title": "Blog Post",
-          "description": "Technologies used in this project are HTML5, CSS3, JavaScript/JQuery, Tailwind CSS, AWS-S3, SQLite3, Postgre and Python/Django.",
+          "description": "Technologies used in this project are HTML5, CSS3, JavaScript, Tailwind CSS, AWS-S3, SQLite3, PostgreSQL and Python/Django.",
           "category": "",
           "image": "blog-post.png",
           "url": "https://powerful-care-production.up.railway.app/",
@@ -27,14 +34,6 @@
           "url": "https://cerulean-flan-510874.netlify.app/",
           "githubUrl": "https://github.com/sohailshams/aisi"
         },
-        {
-            "title": "Book List",
-            "description": "Technologies used in this project are HTML5, CSS3, Glassmorphism, Github Pages and React & React Hooks.",
-            "category": "",
-            "image": "book-list.png",
-            "url": "https://sohailshams.github.io/book-list/",
-            "githubUrl": "https://github.com/sohailshams/book-list"
-          },
           {
             "title": "Netflix Clone",
             "description": "Technologies used in this project are HTML5, CSS3, React, Redux, Stripe, Google Authentication, Ract Router Dom, Axios & React Hooks.",
@@ -44,30 +43,6 @@
             "githubUrl": "https://github.com/sohailshams/netflix-clone"
           },
           {
-            "title": "Rock-Paper-Scissor",
-            "description": "Technologies used in this project are HTML5, CSS3, JavaScript, Font Awesome, Particlesjs and BrandCrowd.",
-            "category": "",
-            "image": "rock-paper-scissor.png",
-            "url": "https://sohailshams.github.io/rock-paper-scissor/",
-            "githubUrl": "https://github.com/sohailshams/rock-paper-scissor"
-          },
-          {
-            "title": "Expense Tracker",
-            "description": "Technologies used in this project are HTML5, CSS3, React and Materialize.",
-            "category": "",
-            "image": "expense-tracker.png",
-            "url": "https://sohailshams.github.io/expense-tracker/",
-            "githubUrl": "https://github.com/sohailshams/expense-tracker"
-          },
-          {
-            "title": "Covid-19 Tracker",
-            "description": "Technologies used in this project are HTML5, CSS3, React React Hooks, Material UI, Ract Chartjs, Numeraljs and uuid",
-            "category": "",
-            "image": "covid-tracker.png",
-            "url": "https://covid-19-tracker-78734.web.app/",
-            "githubUrl": "https://github.com/sohailshams/covid-19-tracker"
-          }, 
-          {
             "title": "Slack Clone",
             "description": "Technologies used in this project are HTML5, CSS3, React, Redux, Styled Components, React Firebase Hooks, React Hooks, Google Authentication and Material UI ",
             "category": "",
@@ -76,20 +51,20 @@
             "githubUrl": "https://github.com/sohailshams/slack-clone"
           }, 
           {
-            "title": "Snapchat Clone",
-            "description": "Technologies used in this project are HTML5, CSS3, React, React, Redux, React Hooks, BEM, Google Authentication, React Webcam, Material UI, Ract Router Dom, Ract Timeago andRact Countdown Circle Timer",
+            "title": "Expense Tracker",
+            "description": "Technologies used in this project are HTML5, CSS3, React and Materialize.",
             "category": "",
-            "image": "snapchat-clone.png",
-            "url": "https://snapchat-clone-853d8.web.app/",
-            "githubUrl": "https://github.com/sohailshams/snapchat-clone"
-          },
+            "image": "expense-tracker.png",
+            "url": "https://sohailshams.github.io/expense-tracker/",
+            "githubUrl": "https://github.com/sohailshams/expense-tracker"
+          }, 
           {
-            "title": "Explore Copenhagen",
-            "description": "Technologies used in this project are HTML5, CSS3, JavaScript/JQuery, JSON, Googlemap API, Bootstrap, Googlefonts, FontAwesome and Hover.css.",
+            "title": "Book List",
+            "description": "Technologies used in this project are HTML5, CSS3, Glassmorphism, Github Pages and React & React Hooks.",
             "category": "",
-            "image": "explore-copenhagen.png",
-            "url": "https://sohailshams.github.io/explore-copenhagen/",
-            "githubUrl": "https://github.com/sohailshams/explore-copenhagen"
+            "image": "book-list.png",
+            "url": "https://sohailshams.github.io/book-list/",
+            "githubUrl": "https://github.com/sohailshams/book-list"
           }
       ]
     }

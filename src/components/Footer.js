@@ -12,7 +12,7 @@ function Footer() {
         <p className="px-2">
           Created with love and passion. Copyright
           <FaCopyright className="mx-1 inline-flex" />
-          2021 MSS
+          2023 MSS
         </p>
       </div>
       <div className=" font-semibold flex justify-center space-x-4 mt-2 sm:mt-0">
