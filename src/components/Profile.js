@@ -11,47 +11,64 @@ function Profile() {
       <h2 className="text-center my-4 text-3xl font-bold sm:font-semibold pt-2 sm:text-4xl">
         Work Experience
       </h2>
-      <div className="pt-4 grid sm:grid-cols-2 place-content-around">
-        <div className="border-1 shadow-xl px-5">
+      <div className="pt-4 grid grid-cols-1 place-content-around">
+      <div className="border-1 shadow-xl px-5 py-5">
           <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5">
-            JB Cole, Manchester, UK
+            Northcoders, Manchester, UK
             </h2>
-            <p className='font-bold'>Junior Python Developer (Django) <br/> <span className='font-medium'>April 2022 till November 2022</span></p>
+            <p className='font-bold'>Full Stack JavaScript Trainee<br/> <span className='font-medium'>March 2023 - Present</span></p>
           <ul className='text-left ml-4 pl-6 list-disc'>
             <li className="font-base sm:font-semibold py-2">
-              Development of mobile responsive web applications with Django and Django REST framework. 
+            Working with HTML5, CSS3 and JavaScript by following Test Driven Development principles in pair programming 
             </li>
             <li className="font-base sm:font-semibold py-2">
-              Application stability supported by unit test creation and maintenance using Python standard library module: unittest. 
+            Writing asynchronous code to execute PostgreSQL queries from node application            
             </li>
             <li className="font-base sm:font-semibold py-2">
-            	Bug investigations enabled by application code debugging and collaboration with project manager.
+            Developing endpoints using Express.js and testing with Jest and SuperTest libraries
             </li>
           </ul>   
         </div>
-        <div className="border-1 shadow-xl md:ml-4 xl:ml-0 mt-6 sm:mt-0">
+        <div className="border-1 shadow-xl px-5 py-5">
+          <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5">
+            JB Cole, Manchester, UK
+            </h2>
+            <p className='font-bold'>Junior Python Developer (Django) <br/> <span className='font-medium'>April 2022 - November 2022</span></p>
+          <ul className='text-left ml-4 pl-6 list-disc'>
+            <li className="font-base sm:font-semibold py-2">
+              Development of mobile responsive web applications with Django and Django REST framework
+            </li>
+            <li className="font-base sm:font-semibold py-2">
+              Application stability supported by unit test creation and maintenance using Python standard library module: unittest
+            </li>
+            <li className="font-base sm:font-semibold py-2">
+            	Bug investigations enabled by application code debugging and collaboration with project manager
+            </li>
+          </ul>   
+        </div>
+        <div className="border-1 shadow-xl md:ml-4 xl:ml-0 mt-6 sm:mt-0 py-5">
           <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5 pl-5">
             Q4 Inc. Toronto, Canada
           </h2>
-          <p className='font-bold pl-5'>Client Support Analyst <br/> <span className='font-medium'>April 2021 till March 2022</span></p>
+          <p className='font-bold pl-5'>Client Support Analyst <br/> <span className='font-medium'>April 2021 - March 2022</span></p>
           <ul className='text-left ml-4 pl-10 pr-2 list-disc'>
             <li className="font-base sm:font-semibold py-2">
-            	Provision of web support to a range of clients using Salesforce Service Cloud. 
+            	Provision of web support to a range of clients using Salesforce Service Cloud
             </li>
             <li className="font-base sm:font-semibold py-2">
-            	Enabling customer’s success with content updates/maintenance by assisting with fixes and content updates. 
+            	Enabling customer’s success with content updates/maintenance by assisting with fixes and content updates 
             </li>
             <li className="font-base sm:font-semibold py-2">
-              Understanding & solving bugs/limitations via HTML, CSS & JavaScript/JQuery.
+              Understanding & solving bugs/limitations via HTML, CSS & JavaScript
             </li>
             <li className="font-base sm:font-semibold py-2">
-            	Conducting investigation and resolution of bugs and identifying product opportunities with HTML, CSS & JavaScript/JQuery tech stack.
+            	Conducting investigation and resolution of bugs and identifying product opportunities with HTML, CSS & JavaScript tech stack
             </li>
             <li className="font-base sm:font-semibold py-2">
-            	Respond efficiently to the clients and provide them excellent customer service.
+            	Respond efficiently to the clients and provide them excellent customer service
             </li>
             <li className="font-base sm:font-semibold py-2">
-              Quality Assurance (QA) - Testing of client’s updates.
+              Quality Assurance (QA) - Testing of client’s updates
             </li>
           </ul>
         </div>
@@ -77,7 +94,7 @@ function Profile() {
             JavaScript
           </button>
           <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
-            JQuery
+            Node.JS
           </button>
           <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
             React
@@ -92,10 +109,10 @@ function Profile() {
             SQLite3/Firebase
           </button>
           <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
-            Git
+            Express.JS
           </button>
           <button className="border-2 p-2 shadow bg-black text-white rounded-full mt-4 cursor-not-allowed">
-            Github
+            Git/Github
           </button>
         </div>
         <h2 className="text-center my-4 text-4xl font-semibold">Projects</h2>
