@@ -1,5 +1,4 @@
 import { useHistory } from 'react-router-dom';
-import cv from '../assets/cv/CV.pdf';
 
 function Nav() {
   const history = useHistory();
