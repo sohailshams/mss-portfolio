@@ -1,5 +1,8 @@
 # Personal Portfolio Website
 
+- [Live Link](https://mss-portfolio-sohailshams.vercel.app/)
+- [Github Repo](https://github.com/sohailshams/mss-portfolio)
+
 ## Project Description
 
 The Personal Portfolio Website highlights the skills, project portfolio and educational background. This website will create online presence. The target audience of this portfolio website are the employers, recruiters and private people who need services in the field of web or software developmet.
