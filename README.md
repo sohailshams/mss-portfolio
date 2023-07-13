@@ -11,3 +11,19 @@ The Personal Portfolio Website highlights the skills, project portfolio and educ
 - [Ract JS](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [FontAwesome](https://fontawesome.com/v4.7.0/icons/)
+
+## Local Deployment
+
+Please follow these steps to run this project locally on your machine;
+
+1. Go to [GitHub repository](https://github.com/sohailshams/mss-portfolio), first fork it and clone to your local machine.
+2. Now run **yarn install**
+3. Now run **yarn start**
+
+## Credits/Media
+
+The picture used in portfolio website is taken from [Unsplash](https://unsplash.com/)
+
+## Disclaimer
+
+This project is for educational purposes only.
