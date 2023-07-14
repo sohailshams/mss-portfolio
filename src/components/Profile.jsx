@@ -118,7 +118,8 @@ function Profile() {
         <h2 className="text-center my-4 text-4xl font-semibold">Projects</h2>
         {portfolio.projects.map(
           ({ title, image, url, description, githubUrl }) => {
-            let projectImage = require('../assets/images/projects/' + image);
+            let projectImage = '/images/projects/';
+            projectImage += image
             return (
               <div
                 className="pt-4 grid sm:grid-cols-2 justify-items-center"
@@ -154,7 +155,7 @@ function Profile() {
                   <a href={url} target="_blank" rel="noreferrer">
                     <img
                       className="object-cover h-full w-full"
-                      src={projectImage.default}
+                      src={projectImage}
                       alt={title}
                     />
                   </a>

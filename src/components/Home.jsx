@@ -1,4 +1,4 @@
-import bg from '../assets/images/bg.jpg';
+import bg from '/images/bg.jpg';
 import { FaGithubSquare, FaLinkedin, FaFacebookSquare } from 'react-icons/fa';
 import Nav from './Nav';
 
