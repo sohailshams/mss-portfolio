@@ -49,12 +49,12 @@ function Contact() {
         </h3>
         <form onSubmit={onSubmit} className="shadow-2xl mb-6">
           <div className="mt-8 max-w-md mx-auto px-4">
-            <div className="grid grid-cols-1 gap-6">
+            <div className="grid grid-cols-1 gap-6 pt-5">
               <label className="block">
                 <span className="text-gray-700">Full name</span>
                 <input
                   type="text"
-                  className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+                  className="mt-1 block w-full py-2 pl-2 rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
                   placeholder="Full name"
                   required
                   name="full_name"
@@ -66,7 +66,7 @@ function Contact() {
                 <span className="text-gray-700">Email address</span>
                 <input
                   type="email"
-                  className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+                  className="mt-1 block w-full py-2 pl-2 rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
                   placeholder="email@example.com"
                   required
                   name="email"
