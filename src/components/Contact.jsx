@@ -54,7 +54,7 @@ function Contact() {
                 <span className="text-gray-700">Full name</span>
                 <input
                   type="text"
-                  className="mt-1 block w-full py-2 pl-2 rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+                  className="mt-1 w-full py-2 pl-2 h-10 rounded-md bg-gray-100 focus:border-[.5px] focus:border-black focus:bg-white outline-none"
                   placeholder="Full name"
                   required
                   name="full_name"
@@ -66,7 +66,7 @@ function Contact() {
                 <span className="text-gray-700">Email address</span>
                 <input
                   type="email"
-                  className="mt-1 block w-full py-2 pl-2 rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+                  className="mt-1 w-full py-2 pl-2 h-10 rounded-md bg-gray-100  focus:border-[.5px] focus:border-gray-500 focus:border-[.5px] focus:border-black focus:bg-white outline-none"
                   placeholder="email@example.com"
                   required
                   name="email"
