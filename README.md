@@ -12,6 +12,7 @@ The Personal Portfolio Website highlights the skills, project portfolio and educ
 - HTML5
 - CSS3
 - [Ract JS](https://react.dev/)
+- [Vite JS](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [FontAwesome](https://fontawesome.com/v4.7.0/icons/)
 
