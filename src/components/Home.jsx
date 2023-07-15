@@ -1,13 +1,14 @@
 import bg from '/images/bg.jpg';
 import { FaGithubSquare, FaLinkedin, FaFacebookSquare } from 'react-icons/fa';
 import Nav from './Nav';
+import Particle from './Particle';
 
 function Home() {
   return (
     <>
       <Nav />
-
       <div className="relative">
+        <Particle />
         <img
           className="mx-auto bg-contain bg-no-repeat bg-center h-screen"
           src={bg}
