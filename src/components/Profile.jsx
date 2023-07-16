@@ -4,16 +4,15 @@ import { v1 as uuid } from "uuid";
 import Footer from "./Footer";
 import Itskills from "./Itskills";
 import Softskills from "./Softskills";
+import Title from "./Title";
 function Profile() {
   return (
     <div>
       <Nav />
 
       <div className="w-10/12 mx-auto">
-        <h2 className="text-center my-4 text-3xl font-bold sm:font-semibold pt-2 sm:text-4xl">
-          Work Experience
-        </h2>
-        <div className="pt-4 grid grid-cols-1 place-content-around">
+        <Title title="Work Experience" />
+        <div className="grid grid-cols-1 place-content-around">
           <div className="border-1 shadow-xl px-5 py-5">
             <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5">
               Northcoders, Manchester, UK
@@ -96,10 +95,9 @@ function Profile() {
           </div>
           <div className="my-4"></div>
         </div>
-
-        <h2 className="text-center my-4 text-4xl font-semibold">IT Skills</h2>
+        <Title title="IT Skills" />
         <Itskills />
-        <h2 className="text-center my-4 text-4xl font-semibold">Projects</h2>
+        <Title title="Projects" />
         {portfolio.projects.map(
           ({ title, image, url, description, githubUrl }) => {
             let projectImage = "/images/projects/";
@@ -150,12 +148,9 @@ function Profile() {
           }
         )}
       </div>
-
-      <h2 className="text-center my-4 text-4xl font-semibold">Soft Skills</h2>
+      <Title title="Soft Skills" />
       <Softskills />
-      <h2 className="text-center my-4 text-4xl font-semibold pt-2">
-        Education
-      </h2>
+      <Title title="Education" />
       <div className="my-4 text-center">
         <h3 className="text-lg font-semibold sm:font-extrabold shadow-lg w-10/12 md:w-6/12 mx-auto">
           Code Institute, Dublin - Ireland
