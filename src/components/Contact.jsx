@@ -83,7 +83,7 @@ function Contact() {
               <label className="block">
                 <span className="text-gray-700">Message</span>
                 <textarea
-                  className="mt-1 pl-1 pt-1 block w-full rounded-md bg-gray-100 focus:border-[.5px] focus:border-gray-500 focus:border-[.5px] focus:border-black focus:bg-white outline-none"
+                  className="mt-1 pl-1 pt-1 h-28 block w-full rounded-md bg-gray-100 focus:border-[.5px] focus:border-gray-500 focus:border-[.5px] focus:border-black focus:bg-white outline-none"
                   rows="3"
                   required
                   name="message"
