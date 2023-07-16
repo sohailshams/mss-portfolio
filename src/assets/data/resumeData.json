@@ -1,72 +1,86 @@
 {
-    
-    "portfolio": {
-      "projects": [
-        
-        {
-          "title": "The NC News.",
-          "description": "Technologies used in this project are HTML5, Tailwind CSS, JavaScript/React, PostgreySQL  and Jest.",
-          "category": "",
-          "image": "nc-news.png",
-          "url": "https://sensational-tanuki-3d993b.netlify.app/",
-          "githubUrl": "https://github.com/sohailshams/nc-news"
-        },{
-          "title": "Fitness Home",
-          "description": "Technologies used in this project are HTML5, CSS3, JavaScript, Bootstrap, AWS, SQLite3, Postgre and Python/Django. Stripe is also integreated to enable payments.",
-          "category": "",
-          "image": "fitness-home.png",
-          "url": "https://mss-fitness-home.onrender.com/",
-          "githubUrl": "https://github.com/sohailshams/fitness-home"
-        },
-        {
-          "title": "Blog Post",
-          "description": "Technologies used in this project are HTML5, CSS3, JavaScript, Tailwind CSS, AWS-S3, SQLite3, PostgreSQL and Python/Django.",
-          "category": "",
-          "image": "blog-post.png",
-          "url": "https://powerful-care-production.up.railway.app/",
-          "githubUrl": "https://github.com/sohailshams/blog"
-        },
-        {
-          "title": "aisi",
-          "description": "Technologies used in this project are HTML5, Tailwind CSS, Google Sign In, Google Firebase, Github, Netlify, React, React Router Dom & React Hooks.",
-          "category": "",
-          "image": "aisi.png",
-          "url": "https://cerulean-flan-510874.netlify.app/",
-          "githubUrl": "https://github.com/sohailshams/aisi"
-        },
-          {
-            "title": "Netflix Clone",
-            "description": "Technologies used in this project are HTML5, CSS3, React, Redux, Stripe, Google Authentication, Ract Router Dom, Axios & React Hooks.",
-            "category": "",
-            "image": "netflix-clone.png",
-            "url": "https://netflix-clone-ab4aa.web.app/",
-            "githubUrl": "https://github.com/sohailshams/netflix-clone"
-          },
-          {
-            "title": "Slack Clone",
-            "description": "Technologies used in this project are HTML5, CSS3, React, Redux, Styled Components, React Firebase Hooks, React Hooks, Google Authentication and Material UI ",
-            "category": "",
-            "image": "slack-clone.png",
-            "url": "https://slack-clone-7a183.web.app/",
-            "githubUrl": "https://github.com/sohailshams/slack-clone"
-          }, 
-          {
-            "title": "Expense Tracker",
-            "description": "Technologies used in this project are HTML5, CSS3, React and Materialize.",
-            "category": "",
-            "image": "expense-tracker.png",
-            "url": "https://sohailshams.github.io/expense-tracker/",
-            "githubUrl": "https://github.com/sohailshams/expense-tracker"
-          }, 
-          {
-            "title": "Book List",
-            "description": "Technologies used in this project are HTML5, CSS3, Glassmorphism, Github Pages and React & React Hooks.",
-            "category": "",
-            "image": "book-list.png",
-            "url": "https://sohailshams.github.io/book-list/",
-            "githubUrl": "https://github.com/sohailshams/book-list"
-          }
-      ]
-    }
+  "portfolio": {
+    "projects": [
+      {
+        "title": "The NC News.",
+        "description": "Technologies used in this project are HTML5, Tailwind CSS, JavaScript/React, PostgreySQL  and Jest.",
+        "category": "",
+        "image": "nc-news.png",
+        "url": "https://sensational-tanuki-3d993b.netlify.app/",
+        "githubUrl": "https://github.com/sohailshams/nc-news"
+      },
+      {
+        "title": "Fitness Home",
+        "description": "Technologies used in this project are HTML5, CSS3, JavaScript, Bootstrap, AWS, SQLite3, Postgre and Python/Django. Stripe is also integreated to enable payments.",
+        "category": "",
+        "image": "fitness-home.png",
+        "url": "https://mss-fitness-home.onrender.com/",
+        "githubUrl": "https://github.com/sohailshams/fitness-home"
+      },
+      {
+        "title": "Blog Post",
+        "description": "Technologies used in this project are HTML5, CSS3, JavaScript, Tailwind CSS, AWS-S3, SQLite3, PostgreSQL and Python/Django.",
+        "category": "",
+        "image": "blog-post.png",
+        "url": "https://powerful-care-production.up.railway.app/",
+        "githubUrl": "https://github.com/sohailshams/blog"
+      },
+      {
+        "title": "aisi",
+        "description": "Technologies used in this project are HTML5, Tailwind CSS, Google Sign In, Google Firebase, Github, Netlify, React, React Router Dom & React Hooks.",
+        "category": "",
+        "image": "aisi.png",
+        "url": "https://cerulean-flan-510874.netlify.app/",
+        "githubUrl": "https://github.com/sohailshams/aisi"
+      },
+      {
+        "title": "Netflix Clone",
+        "description": "Technologies used in this project are HTML5, CSS3, React, Redux, Stripe, Google Authentication, Ract Router Dom, Axios & React Hooks.",
+        "category": "",
+        "image": "netflix-clone.png",
+        "url": "https://netflix-clone-ab4aa.web.app/",
+        "githubUrl": "https://github.com/sohailshams/netflix-clone"
+      },
+      {
+        "title": "Slack Clone",
+        "description": "Technologies used in this project are HTML5, CSS3, React, Redux, Styled Components, React Firebase Hooks, React Hooks, Google Authentication and Material UI ",
+        "category": "",
+        "image": "slack-clone.png",
+        "url": "https://slack-clone-7a183.web.app/",
+        "githubUrl": "https://github.com/sohailshams/slack-clone"
+      },
+      {
+        "title": "Expense Tracker",
+        "description": "Technologies used in this project are HTML5, CSS3, React and Materialize.",
+        "category": "",
+        "image": "expense-tracker.png",
+        "url": "https://sohailshams.github.io/expense-tracker/",
+        "githubUrl": "https://github.com/sohailshams/expense-tracker"
+      },
+      {
+        "title": "Book List",
+        "description": "Technologies used in this project are HTML5, CSS3, Glassmorphism, Github Pages and React & React Hooks.",
+        "category": "",
+        "image": "book-list.png",
+        "url": "https://sohailshams.github.io/book-list/",
+        "githubUrl": "https://github.com/sohailshams/book-list"
+      }
+    ]
+  },
+  "itSkills": {
+    "itSkillsData": [
+      "HTML5/CSS3",
+      "TailwindCSS",
+      "Bootstrap",
+      "Materialize",
+      "JavaScript",
+      "Node.JS",
+      "React",
+      "Python/Django",
+      "Django REST Framework",
+      "SQLite3/Firebase",
+      "Express.JS",
+      "Git/Github"
+    ]
   }
-  
+}
