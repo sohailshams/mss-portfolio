@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import { v1 as uuid } from "uuid";
 import Footer from "./Footer";
 import Itskills from "./Itskills";
+import Softskills from "./Softskills";
 function Profile() {
   return (
     <div>
@@ -151,32 +152,7 @@ function Profile() {
       </div>
 
       <h2 className="text-center my-4 text-4xl font-semibold">Soft Skills</h2>
-      <div className="w-10/12 mx-auto my-4 grid grid-cols-2 sm:grid-cols-4">
-        <span className="border-2 text-center shadow-lg p-1">Creative</span>
-        <span className="border-2 text-center shadow-lg p-1">Proactive</span>
-        <span className="border-2 text-center shadow-lg p-1">Team Player</span>
-        <span className="border-2 text-center shadow-lg p-1">Fast learner</span>
-        <span className="border-2 text-center shadow-lg p-1">
-          Result Oriented
-        </span>
-        <span className="border-2 text-center shadow-lg p-1">
-          Communication
-        </span>
-        <span className="border-2 text-center shadow-lg p-1">
-          Analytic Thinker
-        </span>
-        <span className="border-2 text-center shadow-lg p-1">
-          Problem Solver
-        </span>
-        <span className="border-2 text-center shadow-lg p-1">
-          Service Minded
-        </span>
-        <span className="border-2 text-center shadow-lg p-1">
-          Well Structured
-        </span>
-        <span className="border-2 text-center shadow-lg p-1">Planner</span>
-        <span className="border-2 text-center shadow-lg p-1">Flexible</span>
-      </div>
+      <Softskills />
       <h2 className="text-center my-4 text-4xl font-semibold pt-2">
         Education
       </h2>
