@@ -1,29 +1,28 @@
-import { useHistory } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Nav() {
-  const history = useHistory();
   return (
-    <div className="flex items-center justify-center space-x-6 py-4 bg-black text-white font-semibold sticky top-0 z-50">
-      <h4
+    <div className="flex items-center justify-center space-x-6 py-4 bg-black text-white font-semibold sticky top-0 z-50 border-b-2 border-white">
+      <Link
         className="hover:text-gray-400 hover:scale-105 transition transform duration-800 ease-in cursor-pointer"
-        onClick={() => history.push('/')}
+        to={"/"}
       >
         Home
-      </h4>
+      </Link>
 
-      <h4
+      <Link
         className="hover:text-gray-400 hover:scale-105 transition transform duration-800 ease-in cursor-pointer"
-        onClick={() => history.push('/profile')}
+        to={"/profile"}
       >
         Profile
-      </h4>
+      </Link>
 
-      <h4
+      <Link
         className="hover:text-gray-400 hover:scale-105 transition transform duration-800 ease-in cursor-pointer"
-        onClick={() => history.push('/contact')}
+        to={"/contact"}
       >
         Contact
-      </h4>
+      </Link>
     </div>
   );
 }

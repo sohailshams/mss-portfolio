@@ -2,11 +2,11 @@ import Footer from "./Footer";
 import Nav from "./Nav";
 import { useState, useRef } from "react";
 import { send } from "emailjs-com";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
-  const history = useHistory();
+  const navigate = useNavigate();
   const [toSend, setToSend] = useState({
     full_name: "",
     email: "",
@@ -28,7 +28,7 @@ function Contact() {
         if (response.status === 200) {
           setToSend({ full_name: "", email: "", message: "" });
           alert("Email sent successfully");
-          history.push("/");
+          navigate("/");
         } else alert("Please try again later");
       })
       .catch((err) => {

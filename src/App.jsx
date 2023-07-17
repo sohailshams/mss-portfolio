@@ -1,27 +1,16 @@
-import './App.css';
-import Home from './components/Home';
-import Profile from './components/Profile';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Contact from './components/Contact';
+import "./App.css";
+import Home from "./components/Home";
+import Profile from "./components/Profile";
+import { Routes, Route } from "react-router-dom";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-
-          <Route path="/profile">
-            <Profile />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
-      </Router>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   );
 }
 
