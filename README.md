@@ -14,6 +14,7 @@ The Personal Portfolio Website highlights the skills, project portfolio and educ
 - [Ract JS](https://react.dev/)
 - [Vite JS](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
 - [FontAwesome](https://fontawesome.com/v4.7.0/icons/)
 
 ## Local Deployment
