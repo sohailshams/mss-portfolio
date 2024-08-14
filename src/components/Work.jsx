@@ -5,11 +5,31 @@ function Work() {
     <div className="grid grid-cols-1 place-content-around">
       <div className="border-1 shadow-xl px-5 py-5">
         <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5">
+          Aire Logic, Leeds/Manchester, UK
+        </h2>
+        <p className="font-bold">
+          Junior Developer <br />{" "}
+          <span className="font-medium">January 2024 - Present</span>
+        </p>
+        <ul className="text-left ml-4 pl-6 list-disc">
+          <li className="font-base sm:font-semibold py-2">
+            Development of new features with React JS, GraphQL and C#
+          </li>
+          <li className="font-base sm:font-semibold py-2">
+            Bug investigations and fixing
+          </li>
+          <li className="font-base sm:font-semibold py-2">
+            Writing unit tests
+          </li>
+        </ul>
+      </div>
+      <div className="border-1 shadow-xl px-5 py-5">
+        <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5">
           Northcoders, Manchester, UK
         </h2>
         <p className="font-bold">
           Full Stack JavaScript Trainee
-          <br /> <span className="font-medium">March 2023 - Present</span>
+          <br /> <span className="font-medium">March 2023 - June 2023</span>
         </p>
         <ul className="text-left ml-4 pl-6 list-disc">
           <li className="font-base sm:font-semibold py-2">
@@ -26,7 +46,7 @@ function Work() {
           </li>
         </ul>
       </div>
-      <div className="border-1 shadow-xl px-5 py-5">
+      {/* <div className="border-1 shadow-xl px-5 py-5">
         <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5">
           JB Cole, Manchester, UK
         </h2>
@@ -81,7 +101,7 @@ function Work() {
             Quality Assurance (QA) - Testing of client’s updates
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="my-4"></div>
     </div>
   );
