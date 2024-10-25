@@ -13,10 +13,16 @@ function Work() {
         </p>
         <ul className="text-left ml-4 pl-6 list-disc">
           <li className="font-base sm:font-semibold py-2">
-            Development of new features with React JS, GraphQL and C#
+            Utilised React, TypeScript and Material-UI to build user friendly
+            interfaces
           </li>
           <li className="font-base sm:font-semibold py-2">
-            Bug investigations and fixing
+            Developed and maintained APIs using ASP.NET Core and implemented
+            database interactions using Entity Core Framework
+          </li>
+          <li className="font-base sm:font-semibold py-2">
+            Integrated GraphQL to query and manipulate data while improving
+            application performance and efficiency
           </li>
           <li className="font-base sm:font-semibold py-2">
             Writing unit tests
@@ -46,7 +52,7 @@ function Work() {
           </li>
         </ul>
       </div>
-      {/* <div className="border-1 shadow-xl px-5 py-5">
+      <div className="border-1 shadow-xl px-5 py-5">
         <h2 className="text-lg font-bold sm:font-extrabold py-2 xl:py-5">
           JB Cole, Manchester, UK
         </h2>
@@ -101,7 +107,7 @@ function Work() {
             Quality Assurance (QA) - Testing of client’s updates
           </li>
         </ul>
-      </div> */}
+      </div>
       <div className="my-4"></div>
     </div>
   );
