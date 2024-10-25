@@ -1,5 +1,4 @@
 import Footer from "./Footer";
-import Nav from "./Nav";
 import { useState, useRef } from "react";
 import { send } from "emailjs-com";
 import { useNavigate } from "react-router-dom";
@@ -46,7 +45,6 @@ function Contact() {
 
   return (
     <div className="flex flex-col justify-between h-screen">
-      <Nav />
       <div className="w-10/12 mx-auto">
         <h2 className="text-center my-4 text-4xl font-semibold">Contact</h2>
         <h3 className="text-center font-semibold mb-2">
