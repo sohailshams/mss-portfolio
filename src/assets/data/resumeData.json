@@ -10,22 +10,6 @@
         "githubUrl": "https://github.com/sohailshams/nc-news"
       },
       {
-        "title": "Fitness Home",
-        "description": "Technologies used in this project are HTML5, CSS3, JavaScript, Bootstrap, AWS, SQLite3, Postgre and Python/Django. Stripe is also integreated to enable payments.",
-        "category": "",
-        "image": "fitness-home.png",
-        "url": "https://mss-fitness-home.onrender.com/",
-        "githubUrl": "https://github.com/sohailshams/fitness-home"
-      },
-      {
-        "title": "Blog Post",
-        "description": "Technologies used in this project are HTML5, CSS3, JavaScript, Tailwind CSS, AWS-S3, SQLite3, PostgreSQL and Python/Django.",
-        "category": "",
-        "image": "blog-post.png",
-        "url": "https://powerful-care-production.up.railway.app/",
-        "githubUrl": "https://github.com/sohailshams/blog"
-      },
-      {
         "title": "aisi",
         "description": "Technologies used in this project are HTML5, Tailwind CSS, Google Sign In, Google Firebase, Github, Netlify, React, React Router Dom & React Hooks.",
         "category": "",
@@ -38,7 +22,7 @@
         "description": "Technologies used in this project are HTML5, CSS3, React, Redux, Stripe, Google Authentication, Ract Router Dom, Axios & React Hooks.",
         "category": "",
         "image": "netflix-clone.png",
-        "url": "https://netflix-clone-sohailshams.vercel.app/",
+        "url": "https://mss-netflx-clone.vercel.app/",
         "githubUrl": "https://github.com/sohailshams/netflix-clone"
       },
       {
