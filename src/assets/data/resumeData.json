@@ -2,12 +2,12 @@
   "portfolio": {
     "projects": [
       {
-        "title": "The NC News.",
-        "description": "Technologies used in this project are HTML5, Tailwind CSS, JavaScript/React, PostgreySQL  and Jest.",
+        "title": "LinkedIn Clone",
+        "description": "Technologies used in this project are HTML5, Tailwind CSS, TypeScript/JavaScript/Next.JS, MongoDB/Mongoose, Clerk Authentication, ShadCN and Cloudinary.",
         "category": "",
-        "image": "nc-news.png",
-        "url": "https://sensational-tanuki-3d993b.netlify.app/",
-        "githubUrl": "https://github.com/sohailshams/nc-news"
+        "image": "linkedin-clone.jpg",
+        "url": "https://linkedin-clone-sohailshams-sohailshams-projects.vercel.app/",
+        "githubUrl": "https://github.com/sohailshams/linkedin-clone"
       },
       {
         "title": "aisi",
@@ -16,6 +16,14 @@
         "image": "aisi.png",
         "url": "https://cerulean-flan-510874.netlify.app/",
         "githubUrl": "https://github.com/sohailshams/aisi"
+      },
+      {
+        "title": "The NC News.",
+        "description": "Technologies used in this project are HTML5, Tailwind CSS, JavaScript/React, PostgreySQL  and Jest.",
+        "category": "",
+        "image": "nc-news.png",
+        "url": "https://sensational-tanuki-3d993b.netlify.app/",
+        "githubUrl": "https://github.com/sohailshams/nc-news"
       },
       {
         "title": "Netflix Clone",
