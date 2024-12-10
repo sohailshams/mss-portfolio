@@ -34,6 +34,14 @@
         "githubUrl": "https://github.com/sohailshams/netflix-clone"
       },
       {
+        "title": "Blog Post",
+        "description": "Technologies used in this project are HTML5, CSS3, JavaScript, Tailwind CSS, AWS-S3, SQLite3, PostgreSQL and Python/Django.",
+        "category": "",
+        "image": "blog-post.png",
+        "url": "https://blog-357y.onrender.com/",
+        "githubUrl": "https://github.com/sohailshams/blog"
+      },
+      {
         "title": "Slack Clone",
         "description": "Technologies used in this project are HTML5, CSS3, React, Redux, Styled Components, React Firebase Hooks, React Hooks, Google Authentication and Material UI ",
         "category": "",
