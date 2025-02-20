@@ -9,7 +9,7 @@ function Work() {
         </h2>
         <p className="font-bold">
           Junior Developer <br />{" "}
-          <span className="font-medium">January 2024 - Present</span>
+          <span className="font-medium">January 2024 - December 2024</span>
         </p>
         <ul className="text-left ml-4 pl-6 list-disc">
           <li className="font-base sm:font-semibold py-2">
