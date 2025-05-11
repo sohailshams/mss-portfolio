@@ -1,23 +1,18 @@
 import { v1 as uuid } from "uuid";
-import { useEffect, useState } from "react";
-import sanityClient from "../sanity/sanityClient";
-
-const ITSKILLS_QUERY = `*[
-  _type == "itSkills"
-]|order(_createdAt asc){_id, title}`;
+import { useQuery } from "@tanstack/react-query";
+import { fetchItSkills } from "../utils/utils";
 
 function Itskills() {
-  const [itSkills, setItSkills] = useState([]);
+  const {
+    data: itSkills,
+    isLoading,
+    isError,
+  } = useQuery({
+    queryKey: ["itSkills"],
+    queryFn: async () => fetchItSkills(),
+  });
 
-  useEffect(() => {
-    const fetcItSkillsData = async () => {
-      try {
-        const data = await sanityClient.fetch(ITSKILLS_QUERY);
-        setItSkills(data);
-      } catch (error) {}
-    };
-    fetcItSkillsData();
-  }, []);
+  if (isError || isLoading) return null;
 
   return (
     <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-4 text-center text-xs ">
