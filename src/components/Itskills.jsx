@@ -1,7 +1,6 @@
-// import { itSkills } from "../assets/data/resumeData.json";
 import { v1 as uuid } from "uuid";
-import client from "../sanity/client";
 import { useEffect, useState } from "react";
+import sanityClient from "../sanity/sanityClient";
 
 const ITSKILLS_QUERY = `*[
   _type == "itSkills"
@@ -13,7 +12,7 @@ function Itskills() {
   useEffect(() => {
     const fetcItSkillsData = async () => {
       try {
-        const data = await client.fetch(ITSKILLS_QUERY);
+        const data = await sanityClient.fetch(ITSKILLS_QUERY);
         setItSkills(data);
       } catch (error) {}
     };
