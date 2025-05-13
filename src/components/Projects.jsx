@@ -1,11 +1,22 @@
-import { portfolio } from "../assets/data/resumeData.json";
 import { v1 as uuid } from "uuid";
+import { fetchProjects } from "../utils/utils";
+import { useQuery } from "@tanstack/react-query";
+import { urlFor } from "../sanity/image";
 
 function Projects() {
-  return portfolio.projects.map(
-    ({ title, image, url, description, githubUrl }) => {
-      let projectImage = "/images/projects/";
-      projectImage += image;
+  const {
+    data: projects,
+    isLoading,
+    isError,
+  } = useQuery({
+    queryKey: ["projects"],
+    queryFn: async () => fetchProjects(),
+  });
+
+  if (isError || isLoading) return null;
+
+  return projects?.map(
+    ({ title, imageUrl, liveSiteUrl, description, sourceCodeUrl }) => {
       return (
         <div
           className="pt-4 grid sm:grid-cols-2 justify-items-center"
@@ -19,7 +30,7 @@ function Projects() {
             <div className="space-x-4 py-6 xl:pt-8">
               <a
                 className="border-2 p-2 shadow bg-black text-white hover:bg-gray-800 transition duration-500 text-sm md:text-base font-semibold"
-                href={githubUrl}
+                href={sourceCodeUrl}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -27,7 +38,7 @@ function Projects() {
               </a>{" "}
               <a
                 className="border-2 p-2 shadow bg-black text-white hover:bg-gray-800 transition duration-500 text-sm md:text-base font-semibold"
-                href={url}
+                href={liveSiteUrl}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -36,10 +47,10 @@ function Projects() {
             </div>
           </div>
           <div className="border-1 shadow-xl md:ml-4 xl:ml-0 mt-6 md:mt-0 transition duration-700 ease-in-out transform hover:scale-105">
-            <a href={url} target="_blank" rel="noreferrer">
+            <a href={liveSiteUrl} target="_blank" rel="noreferrer">
               <img
                 className="object-cover h-full w-full"
-                src={projectImage}
+                src={urlFor(imageUrl).url()}
                 alt={title}
               />
             </a>
