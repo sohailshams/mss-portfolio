@@ -8,6 +8,10 @@ const SOFTSKILLS_QUERY = `*[
     _type == "softSkills"
   ]|order(_createdAt asc){_id, title}`;
 
+const PROJECTS_QUERY = `*[
+    _type == "projects"
+  ]|order(_createdAt asc){_id, title, description, sourceCodeUrl, liveSiteUrl, imageUrl}`;
+
 export const fetchItSkills = async () => {
   const data = await sanityClient.fetch(ITSKILLS_QUERY);
   return data;
@@ -15,5 +19,10 @@ export const fetchItSkills = async () => {
 
 export const fetchSoftSkills = async () => {
   const data = await sanityClient.fetch(SOFTSKILLS_QUERY);
+  return data;
+};
+
+export const fetchProjects = async () => {
+  const data = await sanityClient.fetch(PROJECTS_QUERY);
   return data;
 };
