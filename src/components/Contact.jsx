@@ -1,6 +1,5 @@
 import Footer from "./Footer";
 import { useState, useRef } from "react";
-import { send } from "emailjs-com";
 import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
