@@ -2,6 +2,7 @@ import React from "react";
 import { v1 as uuid } from "uuid";
 import { useQuery } from "@tanstack/react-query";
 import { fetchExperience } from "../utils/utils";
+import { format } from "date-fns";
 
 function Work() {
   const {
@@ -26,7 +27,8 @@ function Work() {
             <p className="font-bold">
               {exp.jobTitle} <br />{" "}
               <span className="font-medium">
-                {exp.startDate} - {exp.endDate}
+                {format(new Date(exp.startDate), "MMMM yyyy")} -{" "}
+                {format(new Date(exp.endDate), "MMMM yyyy")}
               </span>
             </p>
             <ul className="text-left ml-4 pl-6 list-disc">
