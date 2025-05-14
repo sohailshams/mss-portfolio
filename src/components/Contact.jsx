@@ -72,7 +72,7 @@ function Contact() {
                 <span className="text-gray-700">Email address</span>
                 <input
                   type="email"
-                  className="mt-1 w-full py-2 pl-2 h-10 rounded-md bg-gray-100 focus:border-[.5px] focus:border-gray-500 focus:border-[.5px] focus:border-black focus:bg-white outline-none"
+                  className="mt-1 w-full py-2 pl-2 h-10 rounded-md bg-gray-100 focus:border-[.5px] focus:border-black focus:bg-white outline-none"
                   placeholder="email@example.com"
                   required
                   name="email"
@@ -84,7 +84,7 @@ function Contact() {
               <label className="block">
                 <span className="text-gray-700">Message</span>
                 <textarea
-                  className="mt-1 pl-1 pt-1 h-28 block w-full rounded-md bg-gray-100 focus:border-[.5px] focus:border-gray-500 focus:border-[.5px] focus:border-black focus:bg-white outline-none"
+                  className="mt-1 pl-1 pt-1 h-28 block w-full rounded-md bg-gray-100 focus:border-[.5px] focus:border-black focus:bg-white outline-none"
                   rows="3"
                   required
                   name="message"
