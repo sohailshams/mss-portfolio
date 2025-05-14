@@ -5,6 +5,11 @@ import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const {
+    VITE_EMAILJS_SERVICE_ID,
+    VITE_EMAILJS_TEMPLATE_ID,
+    VITE_EMAILJS_USER_ID,
+  } = import.meta.env;
   const navigate = useNavigate();
   const [toSend, setToSend] = useState({
     full_name: "",
@@ -13,15 +18,14 @@ function Contact() {
   });
 
   const form = useRef();
-
   const onSubmit = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_wv0l3qc",
-        "template_std2iso",
+        VITE_EMAILJS_SERVICE_ID,
+        VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        "user_szOhPSLxA2EXG4yhRHbbV"
+        VITE_EMAILJS_USER_ID
       )
       .then((response) => {
         if (response.status === 200) {
@@ -52,7 +56,7 @@ function Contact() {
         </h3>
         <form ref={form} onSubmit={onSubmit} className="shadow-2xl mb-6">
           <div className="mt-8 max-w-md mx-auto px-4">
-            <div className="grid grid-cols-1 gap-6 pt-5">
+            <div className="grid grid-cols-1 gap-6 py-20">
               <label className="block">
                 <span className="text-gray-700">Full name</span>
                 <input
