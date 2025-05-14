@@ -1,6 +1,7 @@
 import { v1 as uuid } from "uuid";
 import { fetchSoftSkills } from "../utils/utils";
 import { useQuery } from "@tanstack/react-query";
+import ShadowSkeleton from "./ShadowSkeleton";
 
 function Softskills() {
   const {
@@ -12,10 +13,17 @@ function Softskills() {
     queryFn: async () => fetchSoftSkills(),
   });
 
-  if (isError || isLoading) return null;
+  if (isLoading) return ShadowSkeleton(2);
+
+  if (isError)
+    return (
+      <p className="text-center py-4 bg-red-200 font-semibold">
+        Failed to load Soft Skills
+      </p>
+    );
 
   return (
-    <div className="w-10/12 mx-auto my-4 grid grid-cols-2 sm:grid-cols-4">
+    <div className="my-4 grid grid-cols-2 sm:grid-cols-4">
       {softSkills?.map((skill) => {
         return (
           <span key={uuid()} className="border-2 text-center shadow-lg p-1">

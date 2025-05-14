@@ -3,6 +3,7 @@ import { v1 as uuid } from "uuid";
 import { useQuery } from "@tanstack/react-query";
 import { fetchExperience } from "../utils/utils";
 import { format } from "date-fns";
+import ShadowSkeleton from "./ShadowSkeleton";
 
 function Work() {
   const {
@@ -14,7 +15,14 @@ function Work() {
     queryFn: async () => fetchExperience(),
   });
 
-  if (isError || isLoading) return null;
+  if (isLoading) return ShadowSkeleton(4);
+
+  if (isError)
+    return (
+      <p className="text-center py-4 bg-red-200 font-semibold">
+        Failed to load experience
+      </p>
+    );
 
   return (
     <div className="grid grid-cols-1 place-content-around">

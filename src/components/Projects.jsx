@@ -2,6 +2,7 @@ import { v1 as uuid } from "uuid";
 import { fetchProjects } from "../utils/utils";
 import { useQuery } from "@tanstack/react-query";
 import { urlFor } from "../sanity/image";
+import ShadowSkeleton from "./ShadowSkeleton";
 
 function Projects() {
   const {
@@ -13,7 +14,14 @@ function Projects() {
     queryFn: async () => fetchProjects(),
   });
 
-  if (isError || isLoading) return null;
+  if (isLoading) return ShadowSkeleton(4);
+
+  if (isError)
+    return (
+      <p className="text-center py-4 bg-red-200 font-semibold">
+        Failed to load projects
+      </p>
+    );
 
   return projects?.map(
     ({ title, imageUrl, liveSiteUrl, description, sourceCodeUrl }) => {
