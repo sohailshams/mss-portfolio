@@ -3,9 +3,9 @@ import {
   FaLinkedin,
   FaFacebookSquare,
   FaCopyright,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
-function Footer() {
+const Footer: React.FC = () => {
   return (
     <div className="grid sm:grid-cols-2 bg-black text-white content-center text-center py-3">
       <div className="flex justify-center">
@@ -40,6 +40,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

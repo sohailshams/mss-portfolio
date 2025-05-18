@@ -1,15 +1,15 @@
 import { v1 as uuid } from "uuid";
 import { useQuery } from "@tanstack/react-query";
 import { fetchItSkills } from "../utils/utils";
-import Skeleton from "react-loading-skeleton";
 import ShadowSkeleton from "./ShadowSkeleton";
+import { ItSkills } from "../../studio-mss-portfolio/sanity.types";
 
-function Itskills() {
+const Itskills: React.FC = () => {
   const {
     data: itSkills,
     isLoading,
     isError,
-  } = useQuery({
+  } = useQuery<ItSkills[]>({
     queryKey: ["itSkills"],
     queryFn: async () => fetchItSkills(),
   });
@@ -37,6 +37,6 @@ function Itskills() {
       })}
     </div>
   );
-}
+};
 
 export default Itskills;

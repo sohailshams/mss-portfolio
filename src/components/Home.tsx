@@ -2,7 +2,7 @@ import bg from "/images/bg.jpg";
 import { FaGithubSquare, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import Particle from "./Particle";
 
-function Home() {
+const Home: React.FC = () => {
   return (
     <div className="relative">
       <Particle />
@@ -49,6 +49,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
 export default Home;

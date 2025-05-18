@@ -1,7 +1,7 @@
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
-function ShadowSkeleton(length, maxWidth) {
+function ShadowSkeleton(length: number): React.ReactElement {
   return (
     <div>
       {Array.from({ length: length }, (_, index) => (
