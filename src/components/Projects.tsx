@@ -1,15 +1,16 @@
 import { v1 as uuid } from "uuid";
-import { fetchProjects } from "../utils/utils";
 import { useQuery } from "@tanstack/react-query";
 import { urlFor } from "../sanity/image";
 import ShadowSkeleton from "./ShadowSkeleton";
+import { fetchProjects } from "../utils/utils";
+import { Projects } from "../../studio-mss-portfolio/sanity.types";
 
-function Projects() {
+const Project: React.FC = () => {
   const {
     data: projects,
     isLoading,
     isError,
-  } = useQuery({
+  } = useQuery<Projects[]>({
     queryKey: ["projects"],
     queryFn: async () => fetchProjects(),
   });
@@ -58,7 +59,7 @@ function Projects() {
             <a href={liveSiteUrl} target="_blank" rel="noreferrer">
               <img
                 className="object-cover h-full w-full"
-                src={urlFor(imageUrl).url()}
+                src={urlFor(imageUrl!).url()}
                 alt={title}
               />
             </a>
@@ -68,6 +69,6 @@ function Projects() {
       );
     }
   );
-}
+};
 
-export default Projects;
+export default Project;

@@ -4,7 +4,7 @@ import Softskills from "./Softskills";
 import Title from "./Title";
 import Work from "./Work";
 import Education from "./Education";
-import Projects from "./Projects";
+import Project from "./Projects";
 import { motion, useScroll } from "framer-motion";
 import "../App.css";
 
@@ -23,7 +23,7 @@ function Profile() {
         <Title title="IT Skills" />
         <Itskills />
         <Title title="Projects" />
-        <Projects />
+        <Project />
         <Title title="Soft Skills" />
         <Softskills />
       </div>

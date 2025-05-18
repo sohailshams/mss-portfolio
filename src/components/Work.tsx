@@ -1,16 +1,17 @@
 import React from "react";
 import { v1 as uuid } from "uuid";
 import { useQuery } from "@tanstack/react-query";
-import { fetchExperience } from "../utils/utils";
 import { format } from "date-fns";
+import { fetchExperience } from "../utils/utils";
 import ShadowSkeleton from "./ShadowSkeleton";
+import { Experience } from "../../studio-mss-portfolio/sanity.types";
 
 function Work() {
   const {
     data: experience,
     isLoading,
     isError,
-  } = useQuery({
+  } = useQuery<Experience[]>({
     queryKey: ["experience"],
     queryFn: async () => fetchExperience(),
   });
@@ -35,12 +36,12 @@ function Work() {
             <p className="font-bold">
               {exp.jobTitle} <br />{" "}
               <span className="font-medium">
-                {format(new Date(exp.startDate), "MMMM yyyy")} -{" "}
-                {format(new Date(exp.endDate), "MMMM yyyy")}
+                {format(new Date(exp.startDate!), "MMMM yyyy")} -{" "}
+                {format(new Date(exp.endDate!), "MMMM yyyy")}
               </span>
             </p>
             <ul className="text-left ml-4 pl-6 list-disc">
-              {exp.responsibilities.map((responsibility) => {
+              {exp.responsibilities?.map((responsibility) => {
                 return (
                   <li key={uuid()} className="font-base sm:font-semibold py-2">
                     {responsibility}

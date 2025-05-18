@@ -3,7 +3,7 @@ import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
-function Contact() {
+const Contact: React.FC = () => {
   const {
     VITE_EMAILJS_SERVICE_ID,
     VITE_EMAILJS_TEMPLATE_ID,
@@ -16,9 +16,11 @@ function Contact() {
     message: "",
   });
 
-  const form = useRef();
-  const onSubmit = (e) => {
+  const form = useRef<HTMLFormElement | null>(null);
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (!form.current) return;
+
     emailjs
       .sendForm(
         VITE_EMAILJS_SERVICE_ID,
@@ -38,7 +40,9 @@ function Contact() {
       });
   };
 
-  const handleChange = (e) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
@@ -85,7 +89,7 @@ function Contact() {
                 <span className="text-gray-700">Message</span>
                 <textarea
                   className="mt-1 pl-1 pt-1 h-28 block w-full rounded-md bg-gray-100 focus:border-[.5px] focus:border-black focus:bg-white outline-none"
-                  rows="3"
+                  rows={3}
                   required
                   name="message"
                   value={toSend.message}
@@ -113,6 +117,6 @@ function Contact() {
       <Footer />
     </div>
   );
-}
+};
 
 export default Contact;
