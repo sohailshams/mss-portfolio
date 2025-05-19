@@ -4,7 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import ShadowSkeleton from "./ShadowSkeleton";
 import { SoftSkills } from "../../studio-mss-portfolio/sanity.types";
 
-function Softskills() {
+const Softskills: React.FC = () => {
   const {
     data: softSkills,
     isLoading,
@@ -34,6 +34,6 @@ function Softskills() {
       })}
     </div>
   );
-}
+};
 
 export default Softskills;
