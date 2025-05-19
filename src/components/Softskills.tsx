@@ -2,13 +2,14 @@ import { v1 as uuid } from "uuid";
 import { fetchSoftSkills } from "../utils/utils";
 import { useQuery } from "@tanstack/react-query";
 import ShadowSkeleton from "./ShadowSkeleton";
+import { SoftSkills } from "../../studio-mss-portfolio/sanity.types";
 
-function Softskills() {
+const Softskills: React.FC = () => {
   const {
     data: softSkills,
     isLoading,
     isError,
-  } = useQuery({
+  } = useQuery<SoftSkills[]>({
     queryKey: ["softSkills"],
     queryFn: async () => fetchSoftSkills(),
   });
@@ -33,6 +34,6 @@ function Softskills() {
       })}
     </div>
   );
-}
+};
 
 export default Softskills;
